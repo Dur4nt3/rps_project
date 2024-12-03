@@ -1,0 +1,152 @@
+body {
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-cont {
+    font-family: Roboto;
+    color: #d0d6d6;
+    display: flex;
+    height: 52px;
+    align-items: center;
+    background-color: #192428;
+}
+
+.stat-cont {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stat-cont ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.stat-cont ul > * {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.stat-cont ul li {
+    display: inline;
+}
+
+.win {
+    color: #00ff08;
+}
+
+.tie {
+    color: cyan;
+}
+
+.lose {
+    color: red;
+}
+
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links-cont {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links-cont ul {
+    list-style-type: none;
+}
+
+.links-cont ul li {
+    display: inline;
+}
+
+.links a {
+    color: #d0d6d6;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.links a:visited {
+    color: #d0d6d6;
+}
+
+.links a:hover {
+    color:  #00ff00;
+}
+
+.body-cont {
+    background: linear-gradient(to right, #005c97, #363795);
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.body-cont > * {
+    background-color: #d0d6d6;
+    border-radius: 0.7rem;
+    height: 24rem;
+    aspect-ratio: 3 / 4;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.make-transparent {
+    background-color: transparent;
+}
+
+.body-cont > *:hover {
+    transform: scale(120%);
+    border: 10px outset #ffc733;
+}
+
+.playerChoice {
+    background-color: #00fffb;
+}
+
+.pcChoice {
+    background-color: #ff7800;
+}
+
+.body-cont > * img {
+    height: 18rem;
+    aspect-ratio: 3/4;
+}
+
+.hide {
+    display: none;
+}
+
+.footer-cont {
+    display: flex;
+    background-color: #192428;
+    color: #d0d6d6;
+    height: 32px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-cont a {
+    color: #d0d6d6;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-cont a:visited {
+    color: #d0d6d6;
+}
+
+.footer-cont a:hover {
+    color:  #00ff00;
+}
