@@ -7,13 +7,15 @@ The main goal of this project is to demonstrate basic usage of JavaScript within
 
 **Skills demonstrated: Basic HTML, basic CSS, basic Javascript.**
 
+**Webpage responsiveness: THIS PROJECT WILL NOT DISPLAY PROPERLY ON A MOBILE PHONE.**
+
 ### **Note:**
 
 This project includes some styling to polish some CSS knowledge and learn the interaction between JavaScript and CSS [^1].
 
 As mentioned, the main intent of the project is to demonstrate basic JavaScript knowledge and how to integrate it into a webpage, therefore, it's is not my intent to go overboard with page styling (even though I might have :disappointed_relieved:).
 
-At a later stage, when I learn more advanced CSS techniques; I might update this project to include some animations and polish the overall look of the page.
+At a later stage, when I learn more advanced CSS techniques; I might update this project to include some animations and polish the overall look of the page (and most importantly, create a responsive design).
 
 ### **Attribution:**
 
