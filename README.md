@@ -5,17 +5,17 @@ This is the first JavaScript project within "The Odin Project".
 
 The main goal of this project is to demonstrate basic usage of JavaScript within a webpage.
 
-**Skills demonstrated: Basic HTML, basic CSS, basic Javascript**
+**Skills demonstrated: Basic HTML, basic CSS, basic Javascript.**
 
-**Note:**
+### **Note:**
 
 This project includes some styling to polish some CSS knowledge and learn the interaction between JavaScript and CSS [^1].
 
-As mentioned, the main intent of the project is to demonstrate basic JavaScript knowledge and how to integrate it into a webpage, therefore, it's is not my intent to go overboard with page styling.
+As mentioned, the main intent of the project is to demonstrate basic JavaScript knowledge and how to integrate it into a webpage, therefore, it's is not my intent to go overboard with page styling (even though I might have :disappointed_relieved:).
 
-At a later stage, when I learn more advanced CSS techniques; I might update this project to include some animations.
+At a later stage, when I learn more advanced CSS techniques; I might update this project to include some animations and polish the overall look of the page.
 
-**Attribution:**
+### **Attribution:**
 
 Please see the "attribution.md" file within the repository for links and credits to images used in the project.
 
