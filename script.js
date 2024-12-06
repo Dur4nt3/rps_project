@@ -151,6 +151,25 @@ let playerScore = 0;
 let pcScore = 0;
 let tie = 0;
 
-document.getElementsByClassName("choice-one")[0].onclick = function(){playRound(1)};
-document.getElementsByClassName("choice-two")[0].onclick = function(){playRound(2)};
-document.getElementsByClassName("choice-three")[0].onclick = function(){playRound(3)};
+const bodyContainer = document.querySelector(".body-cont");
+
+bodyContainer.addEventListener("click", function (e) {
+    let target = e.target.className;
+
+    switch (target) {
+        case "choice-one":
+        case "choices rock":
+            playRound(1);
+            break;
+
+        case "choice-two":
+        case "choices paper":
+            playRound(2);
+            break;
+
+        case "choice-three":
+        case "choices scissors":
+            playRound(3);
+            break;        
+    }
+});
